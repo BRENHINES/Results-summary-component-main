@@ -1,6 +1,10 @@
 @font-face {
-  font-family: "Red Hat Display";
-  src: url("../Red-Hat-Display/redhatdisplay/RedHatDisplay-Regular.ttf");
+  font-family: "Hanken Grotesk";
+  src: url("../Hanken_Grotesk/static/HankenGrotesk-Regular.ttf");
+}
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../Hanken_Grotesk/static/HankenGrotesk-Bold.ttf");
 }
 html {
   box-sizing: border-box;
@@ -72,11 +76,18 @@ section {
 }
 
 :root {
-  --clr-primary-pale-blue: hsl(225, 100%, 94%);
-  --clr-primary-bright-blue: hsl(245, 75%, 52%);
-  --clr-neutral-very-pale-blue: hsl(225, 100%, 98%);
-  --clr-neutral-desaturated-blue: hsl(224, 23%, 55%);
-  --clr-neutral-dark-blue: hsl(223, 47%, 23%);
+  --clr-primary-Light-red: hsl(0, 100%, 67%);
+  --clr-primary-Orangey-yellow: hsl(39, 100%, 56%);
+  --clr-primary-Green-teal: hsl(166, 100%, 37%);
+  --clr-primary-Cobalt-blue: hsl(234, 85%, 45%);
+  --clr-gradients-Light-slate-blue: hsl(252, 100%, 67%);
+  --clr-gradients-Light-royal-blue: hsl(241, 81%, 54%);
+  --clr-gradients-violet-blue: hsl(256, 72%, 46%);
+  --clr-gradients-Persian-blue: hsla(241, 72%, 46%, 0);
+  --clr-neutral-white: hsl(0, 0%, 100%);
+  --clr-neutral-pale-blue: hsl(221, 100%, 96%);
+  --clr-neutral-light-lavender: hsl(241, 100%, 89%);
+  --clr-neutral-dark-gray-blue: hsl(224, 30%, 27%);
   --spc-margin-25: 25px;
   --spc-border-10: 10px;
   --spc-border-17: 17px;
