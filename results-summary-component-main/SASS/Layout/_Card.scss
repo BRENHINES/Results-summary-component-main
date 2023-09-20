@@ -1,4 +1,7 @@
 .Card {
+    display: flex;
+    flex-direction: column;
+
     &__Header {
         width: 100vw;
         height: 22.3125rem;
@@ -33,7 +36,7 @@
         &--users {
             font-size: 2.5rem;
             color: var(--clr-neutral-white);
-            font-weight: 700;
+            font-weight: 900;
         }
 
         &--Total {
@@ -61,5 +64,17 @@
             font-weight: 500;
             color: var(--clr-neutral-light-lavender);
         }
+    }
+
+
+    &__Summary {
+        padding: var(--spc-margin-25);
+    }
+
+    &__Title {
+        font-size: 1.125rem;
+        color: var(--clr-neutral-dark-gray-blue);
+        font-weight: 700;
+        margin-bottom: var(--spc-margin-25);
     }
 }

@@ -63,6 +63,77 @@ video {
   --spc-border-17: 17px;
 }
 
+.Row {
+  height: 3.4375rem;
+  width: 325px;
+  border: var(--spc-border-10);
+  margin-bottom: 1.0625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 17px;
+  background: var(--clr-neutral-dark-gray-blue);
+  border-radius: var(--spc-border-10);
+}
+.Row--Left {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
+.Row__icon {
+  width: 1.0625rem;
+  height: 1.0625rem;
+}
+.Row__Text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.Row--Right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+.Row--Right span:nth-child(1) {
+  color: var(--clr-neutral-dark-gray-blue);
+}
+.Row--Right span:nth-child(2),
+.Row--Right span:nth-child(3) {
+  color: var(--clr-neutral-light-lavender);
+}
+
+.Card__Note--Reaction {
+  color: var(--clr-primary-Light-red);
+  background-color: hsla(0, 100%, 67%, 0.2);
+}
+.Card__Note--Memory {
+  color: var(--clr-primary-Orangey-yellow);
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+.Card__Note--Verbal {
+  color: var(--clr-primary-Green-teal);
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+.Card__Note--Visual {
+  color: var(--clr-primary-Cobalt-blue);
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+
+.Card__Btn {
+  height: 3.4375rem;
+  width: 325px;
+  border-radius: 3.375rem;
+  background: var(--clr-neutral-dark-gray-blue);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--clr-neutral-white);
+  margin-top: 0.5rem;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+}
 .Card__Header {
   width: 100vw;
   height: 22.3125rem;
@@ -95,7 +166,7 @@ video {
 .Card__Marks--users {
   font-size: 2.5rem;
   color: var(--clr-neutral-white);
-  font-weight: 700;
+  font-weight: 900;
 }
 .Card__Marks--Total {
   font-size: 1.125rem;
@@ -118,4 +189,13 @@ video {
   text-align: center;
   font-weight: 500;
   color: var(--clr-neutral-light-lavender);
+}
+.Card__Summary {
+  padding: var(--spc-margin-25);
+}
+.Card__Title {
+  font-size: 1.125rem;
+  color: var(--clr-neutral-dark-gray-blue);
+  font-weight: 700;
+  margin-bottom: var(--spc-margin-25);
 }/*# sourceMappingURL=style.css.map */
