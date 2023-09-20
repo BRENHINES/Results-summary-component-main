@@ -39,29 +39,4 @@ video {
     display: block;
     width: 100%;
     height: auto;
-    object-fit: cover;
-}
-
-body {
-    height: 100vh;
-    background: var(--clr-primary-pale-blue);
-}
-
-main {
-    width: 100%;
-    overflow: hidden;
-    background: top url("/order-summary-component-main/images/pattern-background-mobile.svg") no-repeat;
-    background-size: contain;
-
-    @media screen and (min-width: 1024px) {
-        background: top url("/order-summary-component-main/images/pattern-background-desktop.svg") no-repeat;
-        background-size: contain;
-    }
-}
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
 }

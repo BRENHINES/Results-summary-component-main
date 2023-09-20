@@ -47,32 +47,6 @@ video {
   display: block;
   width: 100%;
   height: auto;
-  object-fit: cover;
-}
-
-body {
-  height: 100vh;
-  background: var(--clr-primary-pale-blue);
-}
-
-main {
-  width: 100%;
-  overflow: hidden;
-  background: top url("/order-summary-component-main/images/pattern-background-mobile.svg") no-repeat;
-  background-size: contain;
-}
-@media screen and (min-width: 1024px) {
-  main {
-    background: top url("/order-summary-component-main/images/pattern-background-desktop.svg") no-repeat;
-    background-size: contain;
-  }
-}
-
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 
 :root {
@@ -93,21 +67,9 @@ section {
   --spc-border-17: 17px;
 }
 
-h1,
-.h1,
-.title {
-  font-size: clamp(36px, 2vw, 48px);
-  color: var(--clr-neutral_light-300);
-  font-family: Neometric, sans-serif;
-  font-weight: 600;
-}
-
-h2,
-.h2 {
-  font-size: clamp(24px, 2vw, 36px);
-  font-family: Neometric, sans-serif;
-}
-
-.suptitle {
-  font-size: clamp(65px, 2vw, 96px);
+.Card__Header {
+  width: 100vw;
+  height: 22.3125rem;
+  background: linear-gradient(to bottom, var(--clr-gradients-Light-slate-blue), var(--clr-gradients-Light-royal-blue));
+  border-radius: 0px 0px 30px 30px;
 }/*# sourceMappingURL=style.css.map */
