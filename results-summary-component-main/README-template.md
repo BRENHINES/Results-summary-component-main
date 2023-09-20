@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/result-summary-component-TdyfL5kl1w))
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/result-summary-component-TdyfL5kl1w)
 - Live Site URL: [Live site](https://github.com/BRENHINES/Results-summary-component-main.git)
 
 ## My process
@@ -61,4 +61,4 @@ I want to continous to focus on CSS especially in linear-gradient such as this o
 
 ## Author
 
-- Frontend Mentor - [YOPA SEREINA]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/BRENHINES)https://www.frontendmentor.io/profile/BRENHINES)
+- Frontend Mentor - [YOPA SEREINA](https://www.frontendmentor.io/profile/BRENHINES)
