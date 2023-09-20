@@ -1,3 +1,8 @@
+.Card__Btn:hover {
+  background: linear-gradient(to bottom, var(--clr-gradients-Light-slate-blue), var(--clr-gradients-Light-royal-blue));
+  transition: 500ms ease-in;
+}
+
 @font-face {
   font-family: "Hanken Grotesk";
   src: url("../Hanken_Grotesk/static/HankenGrotesk-Regular.ttf");
@@ -93,6 +98,7 @@ video {
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
+  font-weight: 700;
 }
 .Row--Right span:nth-child(1) {
   color: var(--clr-neutral-dark-gray-blue);
@@ -222,7 +228,6 @@ video {
 .Card__Summary {
   padding: var(--spc-margin-25);
   width: 23.4375rem;
-  border: 2px black;
 }
 @media screen and (min-width: 1440px) {
   .Card__Summary {
